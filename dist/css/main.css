@@ -219,7 +219,7 @@ main {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 1rem; }
+  margin: 1rem; }
   .boxes div {
     font-size: 2rem;
     border: 3px #fff solid;
@@ -257,7 +257,8 @@ main {
     text-align: center; }
     main .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; }
+      margin-bottom: 3rem;
+      font-size: 4rem; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -276,6 +277,8 @@ main {
       width: 150px;
       height: 150px;
       background: url(../img/portrait_small.jpg); }
+  .boxes div {
+    font-size: 1.3rem; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }

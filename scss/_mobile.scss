@@ -26,7 +26,8 @@
     text-align: center;
     .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem;
+      margin-bottom: 3rem;
+      font-size: 4rem;
     }
   }
 
@@ -51,6 +52,12 @@
       width: 150px;
       height: 150px;
       background: url(../img/portrait_small.jpg);
+    }
+  }
+
+  .boxes {
+    div {
+      font-size: 1.3rem;
     }
   }
 
